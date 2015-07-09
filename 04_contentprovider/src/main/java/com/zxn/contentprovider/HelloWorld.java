@@ -13,6 +13,7 @@ public class HelloWorld extends MonitoredDebugActivity implements IReportBack {
 
     public HelloWorld() {
         super(R.menu.main_menu, tag);
+        Log.i(tag, "HelloWorld");
         this.retainState();
         providerTester = new ProviderTester(this, this);
     }

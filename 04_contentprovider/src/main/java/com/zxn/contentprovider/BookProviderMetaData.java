@@ -8,7 +8,7 @@ import android.provider.BaseColumns;
  */
 public class BookProviderMetaData {
 
-    public static final String AUTHORITY = "com.androidbook.provider.BookProvider";
+    public static final String AUTHORITY = "com.zxn.BookProvider";
 
     public static final String DATABASE_NAME = "book.db";
     public static final int DATABASE_VERSION = 1;
