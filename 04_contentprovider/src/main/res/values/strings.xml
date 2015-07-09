@@ -1,3 +1,10 @@
 <resources>
+<<<<<<< HEAD
 <item type="id" name="menu_da_clear"/>
+=======
+    <string name="app_name">04_ContentProvider</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+>>>>>>> origin/master
 </resources>
