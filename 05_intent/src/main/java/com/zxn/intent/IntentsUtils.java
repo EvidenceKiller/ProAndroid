@@ -9,12 +9,14 @@ import android.net.Uri;
  */
 public class IntentsUtils {
 
+    // 启动一个Activity
     public static void invokeBasicActivity(Activity activity) {
         String actionName = "com.zxn.intent.action.ShowBasicView";
         Intent intent = new Intent(actionName);
         activity.startActivity(intent);
     }
 
+    // 使用浏览器打开一个uri
     public static void invokeWebBrowser(Activity activity) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("http://www.baidu.com"));
@@ -27,29 +29,34 @@ public class IntentsUtils {
         activity.startActivity(intent);
     }
 
+    // 打开拨号界面
     public static void dial(Activity activity) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
         activity.startActivity(intent);
     }
 
+    // 拨打一个电话
     public static void call(Activity activity) {
         Intent intent = new Intent(Intent.ACTION_CALL);
         intent.setData(Uri.parse("tel:904-905-5646"));
         activity.startActivity(intent);
     }
 
+    // 使用一个地图程序打开指定位置
     public static void showMapAtLatLong(Activity activity) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse("geo:0,0?z=4&q=business+near+city"));
         activity.startActivity(intent);
     }
 
+    // 启动某个应用获取返回的数据
     public static void invokePick(Activity activity) {
         Intent pickIntent = new Intent(Intent.ACTION_PICK);
         pickIntent.setData(Uri.parse("content://com.google.provider.NotePad/notes"));
         activity.startActivityForResult(pickIntent, 1);
     }
 
+    // 启动某个应用程序获取返回的数据
     public  static void invokeGetContent(Activity activity) {
         Intent pickIntent = new Intent(Intent.ACTION_GET_CONTENT);
         pickIntent.setType("vnd.android.cursor.item/vnd.google.note");
