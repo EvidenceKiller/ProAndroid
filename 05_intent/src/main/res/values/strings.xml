@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">05_intent</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Exercise System Intent</string>
+    <string name="hello">Exercise System Intent</string>
     <string name="action_settings">Settings</string>
 </resources>
