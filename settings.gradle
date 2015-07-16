@@ -1,1 +1,1 @@
-include ':app', ':04_contentprovider', ':05_intent'
+include ':04_contentprovider', ':05_intent'
