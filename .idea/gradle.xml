@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/04_contentprovider" />
             <option value="$PROJECT_DIR$/05_intent" />
+            <option value="$PROJECT_DIR$/06_controls" />
           </set>
         </option>
       </GradleProjectSettings>

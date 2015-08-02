@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/04_contentprovider/04_contentprovider.iml" filepath="$PROJECT_DIR$/04_contentprovider/04_contentprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_intent/05_intent.iml" filepath="$PROJECT_DIR$/05_intent/05_intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_controls/06_controls.iml" filepath="$PROJECT_DIR$/06_controls/06_controls.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProAndroid.iml" filepath="$PROJECT_DIR$/ProAndroid.iml" />
     </modules>
   </component>
